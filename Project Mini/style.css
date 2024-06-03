@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", san-serif;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  background-color: #cafdff;
+}
+.logo {
+  width: 300px;
+}
+.ul {
+  display: flex;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  align-items: center;
+}
+.li {
+  padding: 0 8px;
+  list-style-type: none;
+ }
+
+header {
+  background-color: rgb(224, 160, 233);
+  height: calc(100% - 70);
+  padding: 24px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .img1 {
+    width: 60%;
+    padding-left: 16px;
+  }
+  .h1 {
+    font-size: 70px;
+    padding: 0 24px 24px 24px;
+  }
+  .subheader {
+    padding: 0 0 24px 24px;
+  }
+  .button {
+    color: white;
+    background-color: rgb(5, 139, 139);
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    margin-left: 24px;
+  }
+}
+
+/*
+
+About
+
+*/
+
+#about {
+  padding: 48px 0;
+  background: color #f8ffdc;
+}
+
+.h2 {
+  font-size: 60px;
+  text-align: center;
+  padding: 24px;
+}
+
+.about__description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__text--wrapper {
+ width: 60%;
+ font-size: 20px;
+ margin: 24px 0 24px 24px;
+}
+
+.about__img {
+  width: 100%;
+  padding: 24px 24px 24px 60px;
+  display: flex;
+}
+
+/*
+
+Discord
+
+*/
+
+#discord {
+    padding: 48px 0;
+    background-color: #cafdff;
+  }
+
+  .discord__description {
+    display: flex;
+  }
+
+  .discord__description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .discord__img {
+    width:100%;
+  padding: 60px 0px 24px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .discord__text {
+    padding: 24px 0;
+    font-size: 20px;
+  }
+
+/*
+
+Contact
+
+*/
+
+#contact {
+    background: color #aeaaaf;
+}
+
+.form__align {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    padding: 12px 0 24px 0;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 0;
+}
+
+.contact__button {
+    color: white;
+    background-color: rgb(5, 139, 139);
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 24px;
+}     
+    
+/*
+
+Footer
+
+*/
+
+.footer__align {
+    background-color: #cafdff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;justify-content: center;
+    padding: 24px 0;
+}
